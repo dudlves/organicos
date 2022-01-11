@@ -1,0 +1,250 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+
+header img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+#menu-container{
+    background-color: #F0F0F0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    align-items: center;
+    width: 1140px;
+    padding-right: 95px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0; 
+    display: flex;
+}
+
+nav ul li{
+    /* margin: 0px; */
+    padding: 10px;
+    /* width: auto; */
+    font-size: 17px;
+
+}
+
+nav ul li a{
+    text-decoration: none; 
+    color: black;
+}
+
+/* nav div {
+    margin-left: 50px;
+} */
+
+nav div input{
+    padding: 8px;
+    font-size: 15px;
+}
+
+nav div button{
+    font-size: 15px;
+    padding: 8px;
+    background-color: rgba(48, 48, 51, 0.911);
+    color: white;
+    border-radius: 5px;
+}
+
+main{
+    display: grid;
+    grid-template-areas: "sobre informacao";
+    margin-top: 45px;
+    margin-left:30px;
+    /* width: 1350px; */
+}
+
+.sobre{
+    background-color: #e2e0e0;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 25px;
+    padding: 36px;
+    width: 750px;
+    
+}
+
+.sobre h1{
+    font-size: 70px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #CCC;
+}
+
+.sobre button{
+    padding: 15px;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border-color: #007bff;
+}
+
+.video{
+    margin-right: 90px;
+}
+
+.video iframe{
+    width: 320px;
+    height: 140px;
+}
+
+.email{
+    padding-right: 20px;
+}
+
+.email input{
+    height: 20px;
+    padding: 5px;
+    width: 300px;
+}
+
+.senha input{
+    height: 20px;
+    padding: 5px;
+    width: 300px;
+}
+
+.enviar{
+    margin-left: 225px;
+    padding: 10px;
+    margin-top: 10px;
+   
+}
+
+.enviar button{
+    font-size: 16px;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+}
+
+.frutas{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1262px;
+    margin-top: 40px;
+    height: 400px;
+}
+
+.card{
+    width: 258px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.frutas img{
+    width: 259px;
+    height: 180px;
+}
+
+.frutas h2{
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.frutas p{
+    margin: 0px;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.frutas button{
+    margin: 0px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border-color: #007bff;
+}
+
+.item{
+    /* margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; */
+    
+    width: 1162px;
+    padding-right: 151px;
+    padding-left: 91px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 275px;
+}
+
+.tabela{
+    width:  540px;
+    border: 1px solid rgb(212, 212, 212);
+    /* margin-top: 40px; */
+    color: #007bff;
+    height: 212px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.tabela h3{
+    padding: 5px;
+}
+
+.tabela2{
+    width: 560px;
+    color: black;
+    margin: -5px;
+}
+
+.tabela2 ul{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+    align-items: center;
+}
+
+.tabela2 ul li{
+    align-items: center;
+    /* padding: 20px; */
+    width: 200px;
+}
+
+.nomes{
+    font-size: 13px;
+}
